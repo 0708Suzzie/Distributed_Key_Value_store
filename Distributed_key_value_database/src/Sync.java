@@ -12,7 +12,7 @@ import org.json.simple.parser.ParseException;
 public class Sync {
 
     protected String hashFilePath;
-    protected String mainDbPath = "/Users/rissrani/Distributed_key_value_database/dataWarehouse/";
+    protected String mainDbPath = "/Distributed_key_value_database/dataWarehouse/";
 
     Sync(String hashFilePath) {
         this.hashFilePath = hashFilePath;
