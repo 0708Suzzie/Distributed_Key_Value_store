@@ -56,7 +56,7 @@ We’re using JSON files as databases as they are lightweight and flexible in te
 
 <H4> 1. INTERFACES</H4> 
 
- <H5>dataBase</H5>
+ <H5>1. dataBase</H5>
 
   createDatabase
 
