@@ -17,7 +17,7 @@ public class distributedDatabase implements database{
 
     distributedDatabase() throws IOException{
         int filenum = randomNumGenerator();
-        String directoryName = "/Users/rissrani/Distributed_key_value_database/temp_db" + filenum;
+        String directoryName = "/Distributed_key_value_database/temp_db" + filenum;
         File file = new File(directoryName);
         if(file.mkdir()){
             System.out.println("temp_db created");
@@ -26,7 +26,7 @@ public class distributedDatabase implements database{
             System.out.println("\nRelaunch the programme. Unable to create temporary database");
         }
 
-        File source = new File("/Users/rissrani/Distributed_key_value_database/dataWarehouse/hashFile.json");
+        File source = new File("/Distributed_key_value_database/dataWarehouse/hashFile.json");
         File destination = new File(directoryName + "/hashfile.json");
 
         try {
