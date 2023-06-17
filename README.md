@@ -15,7 +15,9 @@ A key-value store is a database that stores some value against a given key. The 
 
 4. Since the database will be distributed, users should be able to connect to any node to SET a key, and connect to any other node to GET the key. 
 
-5. Multiple users should be able to concurrently use the database. 6. The database should be fully functional even if one node goes down. 
+5. Multiple users should be able to concurrently use the database. 
+
+6. The database should be fully functional even if one node goes down. 
 
  
 
